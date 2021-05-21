@@ -14,7 +14,7 @@ fi
 mvn -U -DskipTests=true clean install
 case $1 in 
   iOS)
-    mvn clean verify -Dwebdriver.driver=appium -Dcucumber.filter.tags="@mobile" -Dcucumber.glue="demo.stepdefinitions" 
+    mvn clean verify -P single -Dwebdriver.driver=appium -Dcucumber.filter.tags="@mobile" -Dcucumber.glue="demo.stepdefinitions" 
     ;;
   *)
     display_usage

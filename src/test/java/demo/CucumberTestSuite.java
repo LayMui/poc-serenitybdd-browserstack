@@ -21,6 +21,8 @@ import demo.browserstack.BrowserStackSerenityTest;
         strict = true,
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
+
 public class CucumberTestSuite extends BrowserStackSerenityTest  {
    
 }
+

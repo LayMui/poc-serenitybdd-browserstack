@@ -1,5 +1,5 @@
 
-@goal
+@goal @mobile
 Feature: goal setting
     In order add new goals
     As a mobile user Mary
@@ -8,7 +8,7 @@ Feature: goal setting
   Background:
     Given Mary is at the add new goal page
 
-  @goal @mobile
+  @goal 
   Scenario Outline: add new goal
     In order to add new goal
     As a mobile user Mary
@@ -19,6 +19,7 @@ Feature: goal setting
     Examples:
       | goal |
       | Learn react native |
+
 
   Scenario Outline: remove goal
     In order to remove the goal added 
