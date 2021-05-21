@@ -1,11 +1,10 @@
 package demo.browserstack;
 
-
+import com.browserstack.local.Local;
 
 import java.util.Map;
 import java.util.HashMap;
 
-import com.browserstack.local.Local;
 import org.junit.BeforeClass;
 import org.junit.AfterClass;
 

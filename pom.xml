@@ -252,7 +252,7 @@
                         <version>${maven.failsafe-plugin.version}</version>
                         <configuration>
                             <includes>
-                                <include>demo/Parallel*.java</include>
+                                <include>demo/CucumberTestSuite.java</include>
                             </includes>
                             <parallel>classes</parallel>
                             <threadCount>4</threadCount>
