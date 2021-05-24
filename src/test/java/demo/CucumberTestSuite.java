@@ -20,6 +20,7 @@ import demo.browserstack.BrowserStackSerenityTest;
         glue = { "classpath:demo.stepdefinitions"},
         strict = true,
         snippets = CucumberOptions.SnippetType.CAMELCASE
+        
 )
 
 public class CucumberTestSuite extends BrowserStackSerenityTest  {
