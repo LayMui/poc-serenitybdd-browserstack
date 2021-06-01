@@ -27,4 +27,5 @@ com.browserstack.local.LocalException: Either another browserstack local client 
 
 
 # Useful command
-ps aux | grep BrowserStackLocal | awk ‘{print $2}’ | xargs kill -9 
+# ps aux | grep BrowserStackLocal | awk ‘{print $2}’ | xargs kill -9 
+ps -ef | grep BrowserStackLocal
