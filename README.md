@@ -29,3 +29,9 @@ com.browserstack.local.LocalException: Either another browserstack local client 
 # Useful command
 # ps aux | grep BrowserStackLocal | awk ‘{print $2}’ | xargs kill -9 
 ps -ef | grep BrowserStackLocal
+
+# Issue #2
+[ERROR]   Error Domain=com.facebook.WebDriverAgent Code=1 "The on-screen keyboard must be present to send keys" UserInfo={NSLocalizedDescription=The on-screen keyboard must be present to send keys} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+B
+
