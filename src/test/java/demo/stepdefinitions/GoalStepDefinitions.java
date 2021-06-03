@@ -77,6 +77,11 @@ public class GoalStepDefinitions {
     @When("^(?:.*) enter her new goal \"(.*)\"")
     public void maryEnterHerNewGoal(String goal) {
       //  eyes.checkWindow("Enter Goal");
+        theActorInTheSpotlight()
+                .should(
+                        eventually(seeThat(the(GoalPage.inputText), isVisible())));
+
+
         theActorInTheSpotlight().attemptsTo(Enter.newGoal(goal));
     }
 
