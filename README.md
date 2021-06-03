@@ -35,3 +35,5 @@ ps -ef | grep BrowserStackLocal
 Command duration or timeout: 0 milliseconds
 B
 
+Need to set appium version to 1.18.0
+bstack_browserstack.appium_version=1.18.0
