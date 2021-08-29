@@ -28,6 +28,8 @@ import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.util.EnvironmentVariables;
 import net.thucydides.core.util.SystemEnvironmentVariables;
 import net.thucydides.core.webdriver.WebDriverFacade;
+
+
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
@@ -92,5 +94,6 @@ public class GoalStepDefinitions {
                 .should(
                         eventually(seeThat(the(GoalPage.addNewGoalButton), isVisible())));
    //    eyes.checkWindow("List Of Goals Added");
+       
     }
 }
